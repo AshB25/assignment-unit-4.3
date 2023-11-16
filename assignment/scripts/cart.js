@@ -16,7 +16,7 @@ console.log(basket);
 }
 
 function empty() {
-    basket.pop();
+    basket.splice(0, basket.length);
 console.log('empty basket', basket);
 }
 //for (let i = 0; i > basket; i++){
